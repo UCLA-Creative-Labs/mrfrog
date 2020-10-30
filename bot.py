@@ -85,7 +85,7 @@ async def send_pics(ctx):
         'But honestly...if you did tell',
         'Who would believe you?'
     ]
-    if True:
+    if chance == 0:
         async with ctx.author.dm_channel.typing():
             await asyncio.sleep(2)
         await ctx.author.send(f"I have something to tell you, {ctx.author.name}.", delete_after=(18 ))
