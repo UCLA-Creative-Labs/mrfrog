@@ -40,7 +40,7 @@ async def dm_converse(user, tree, question):
     try:
         msg = await bot.wait_for('message', timeout=40.0, check=check)
     except asyncio.TimeoutError:
-        await message.author.send('U take too long. Cthulu doesnt get ghosted, Cthulu does the ghosting!')
+        await user.send('U take too long. Cthulu doesnt get ghosted, Cthulu does the ghosting!')
     else:
         if msg.author == bot.user:
             return
