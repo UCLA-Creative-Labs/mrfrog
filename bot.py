@@ -12,7 +12,7 @@ bot = commands.Bot(command_prefix='!')
 
 tree = {
     "So I only talk to people who know my street name. What's my name?": ([], [
-            {"userRes": "the great one", "after":[], "nextQuestion": "Chunky or smooth?"}, 
+            {"userRes": "cthulhu", "after":[], "nextQuestion": "Chunky or smooth?"}, 
             {"userRes":"", "after": ["Hmmm explore the puzzles and come back when u know it"]}
         ]),
     "Chunky or smooth?": (["To receive the password, you must answer one question correctly."], 
